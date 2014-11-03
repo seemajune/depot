@@ -16,12 +16,13 @@
 
 /* START_HIGHLIGHT */
 #banner {
-  background: #9c9;
-  padding: 10px;
+  background: #FF0000;
+  padding: 1em;
   border-bottom: 2px solid;
-  font: small-caps 40px/40px "Times New Roman", serif;
-  color: #282;
-  text-align: center;
+  font: small-caps 40px/40px "Helvetica", serif;
+  font-weight: lighter;
+  color: #4FD5D6;
+  text-align: right;
 
   img {
     float: left;
@@ -34,31 +35,33 @@
   padding: 1em;
   margin-bottom: 2em;
   background-color: #f0f0f0;
-  font: bold smaller sans-serif;
+  font: light smaller sans-serif;
 }
 
 #columns {
-  background: #141;
+  background: #fff;
 
   #main {
     margin-left: 17em;
     padding: 1em;
-    background: white;
+    background: #fff;
   }
 
   #side {
     float: left;
     padding: 1em 2em;
     width: 13em;
-    background: #141;
+    background: #4FD5D6;
+    position: absolute;
   
     ul {
       padding: 0;
       li {
         list-style: none;
         a {
-          color: #bfb;
+          color: #CDFFFF;
           font-size: small;
+
         }
       }
     }

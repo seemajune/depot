@@ -7,9 +7,9 @@ body {
 }
 
 p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: helvetica, verdana, sans-serif;
   font-size: 13px;
-  line-height: 18px;
+  line-height: 5em;
 }
 
 pre {
@@ -36,7 +36,7 @@ div {
 }
 
 #notice {
-  color: green;
+  color: #4FD5D6;
 }
 
 .field_with_errors {
